@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "361710257604",
+    "firebase_url": "https://sevaapp-8cb7d.firebaseio.com",
+    "project_id": "sevaapp-8cb7d",
+    "storage_bucket": "sevaapp-8cb7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361710257604:android:c1d7d2cc25e8d939",
+        "android_client_info": {
+          "package_name": "com.zibbix.medpharmapp.sevaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361710257604-pdphdloo26vtmu6ald5c0s89gufpar5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEwqqqm0oxdUT-uI8TOQ3ci8UUMPyTIv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

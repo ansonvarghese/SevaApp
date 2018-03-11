@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context="com.zibbix.medpharmapp.sevaapp.LawActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31dp"
+                android:text="A Supreme Court ruling states that no woman can be arrested before sunrise or after sunset in order to stop them from getting harassed in the wee hours. This can only be overturned if the police get a written document as a proof of why they require to arrest the woman at that time." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="45dp"
+                android:text="In 2013, Delhi Police announced that a woman can file an FIR at any police station regardless of the jurisdiction, and the police has to accept it exactly as she describes. It also says that investigation needs to be taken as per the statement of the woman." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="46dp"
+                android:text="According to the directions by Delhi Police, if a woman is unable to go to the police station to lodge a complaint then she can lodge the same via an email or registered post. The senior police officer then sends the email or registered post to the Station House Officer of the area of crime for proper verification of the document, so that an FIR can be lodged." />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="45dp"
+                android:text="In 2013, Delhi Police announced that a woman can file an FIR at any police station regardless of the jurisdiction, and the police has to accept it exactly as she describes. It also says that investigation needs to be taken as per the statement of the woman." />
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="45dp"
+                android:text="In 2013, Delhi Police announced that a woman can file an FIR at any police station regardless of the jurisdiction, and the police has to accept it exactly as she describes. It also says that investigation needs to be taken as per the statement of the woman." />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

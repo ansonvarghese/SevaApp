@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/complaint"
+            android:title="Complaint Register" />
+        <item
+            android:id="@+id/nav_galleryy"
+            android:icon="@drawable/accident"
+            android:title="Emergency Number" />
+        <item
+            android:id="@+id/nav_slideshoww"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Case Status" />
+        <item
+            android:id="@+id/nav_managee"
+            android:icon="@mipmap/officer"
+            android:title="Complaint About Officer" />
+        <item
+            android:id="@+id/nav_manageee"
+            android:icon="@mipmap/miss"
+            android:title="Missing Persons" />
+    </group>
+
+</menu>

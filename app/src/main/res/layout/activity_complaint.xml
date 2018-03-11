@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/as"
+    tools:context="com.zibbix.medpharmapp.sevaapp.ComplaintActivity">
+
+    <EditText
+        android:id="@+id/ImageNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonUploadImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="Complaint Description"
+        android:inputType="textMultiLine"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/ButtonUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="set"
+        android:text="Submit"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/ButtonChooseImage"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignBottom="@+id/ImageNameEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginStart="22dp"
+        app:srcCompat="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/ShowImageView"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="54dp"
+        app:srcCompat="@drawable/pro" />
+
+</RelativeLayout>
